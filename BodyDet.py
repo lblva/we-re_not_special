@@ -1,3 +1,4 @@
+import os
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -19,6 +20,9 @@ def fade_out(image):
         cv2.addWeighted(overlay, alpha, image, 1 - alpha, 0, image)
         cv2.imshow("MediaPipe Selfie Segmentation", image)
         cv2.waitKey(int(FADE_DURATION * 300 / (FADE_STEPS * FADE_STEPS)))  # Delay between each step
+
+# Specify the path to your public folder
+public_folder_path = "public"
 
 cap = cv2.VideoCapture(0)
 
@@ -105,8 +109,10 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
                     cv2.drawContours(mask, [cnt], -1, (255), thickness=cv2.FILLED)
                     colored_silhouette_mask_alpha[mask == 255] = (*person_colors[i % len(person_colors)], 255)  # Set alpha to 255 for silhouette regions
 
-                # Save the image with transparency
-                cv2.imwrite(f"silhouette_{image_counter}.png", colored_silhouette_mask_alpha)
+                # Save the image with transparency to the public folder
+                image_name = f"silhouette_{image_counter}.png"
+                destination_path = os.path.join(public_folder_path, image_name)
+                cv2.imwrite(destination_path, colored_silhouette_mask_alpha)
 
                 image_counter += 1
                 if image_counter > 20:

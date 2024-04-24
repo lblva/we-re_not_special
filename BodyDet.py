@@ -3,6 +3,7 @@ import cv2
 import mediapipe as mp
 import numpy as np
 import time 
+import random
 
 mp_selfie_segmentation = mp.solutions.selfie_segmentation
 
@@ -10,8 +11,14 @@ BG_COLOR = (192, 192, 192)  # Gray
 FADE_DURATION = 10 * 60  # Fade duration in seconds
 FADE_STEPS = 50  # Number of steps for fading
 
-person_colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255)]  # Blue, Green, Red
+# Generate a random color for each contour detected
+def generate_random_color():
+    return (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
+# Assign colors to detected persons
+person_colors = {}
+
+# Fade out function
 def fade_out(image):
     alpha_step = 1.0 / FADE_STEPS
     for i in range(FADE_STEPS):
@@ -73,10 +80,20 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
         valid_contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 100]
 
         # Assign colors to detected persons
+        if len(valid_contours) > 0:
+            # Reset colors when a person is detected
+            person_colors = {}
         for i, cnt in enumerate(valid_contours):
+            if i not in person_colors:
+                # Generate a random color for each contour
+                color = generate_random_color()
+                # Ensure the generated color is unique
+                while color in person_colors.values():
+                    color = generate_random_color()
+                person_colors[i] = color
             mask = np.zeros_like(results.segmentation_mask)
             cv2.drawContours(mask, [cnt], -1, (255), thickness=cv2.FILLED)
-            bg_canvas[mask == 255] = person_colors[i % len(person_colors)]
+            bg_canvas[mask == 255] = person_colors[i]
 
         # Update the number of persons detected
         num_persons = len(valid_contours)
@@ -107,7 +124,7 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
                 for i, cnt in enumerate(valid_contours):
                     mask = np.zeros_like(results.segmentation_mask)
                     cv2.drawContours(mask, [cnt], -1, (255), thickness=cv2.FILLED)
-                    colored_silhouette_mask_alpha[mask == 255] = (*person_colors[i % len(person_colors)], 255)  # Set alpha to 255 for silhouette regions
+                    colored_silhouette_mask_alpha[mask == 255] = (*person_colors[i], 255)  # Set alpha to 255 for silhouette regions
 
                 # Save the image with transparency to the public folder
                 image_name = f"silhouette_{image_counter}.png"

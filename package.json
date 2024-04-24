@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:python": "python BodyDev.py",
+    "start:vite": "vite",
+    "start": "concurrently \"npm run start:python\" \"npm run start:vite\""
   },
   "devDependencies": {
     "vite": "^5.2.0"

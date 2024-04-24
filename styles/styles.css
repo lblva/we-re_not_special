@@ -3,6 +3,7 @@ body, html {
   padding: 0;
   overflow: hidden; /* to remove default body margin */
   height: 100%;
+  background-color: rgb(12, 12, 12);
 }
 
 

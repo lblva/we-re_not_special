@@ -13,3 +13,25 @@ canvas {
   height: 100vh;
   border: 1px solid black;
   }
+
+  h1 {
+    z-index: 1;
+    position: absolute;
+    color: rgb(187, 187, 187);
+    font-family: Arial, Helvetica, sans-serif;
+    animation: fade 2s infinite alternate; /* 2s for one complete fade in and out */
+    left: 50%; /* Align the left side of the element to the center of the viewport */
+    transform: translate(-50%, -50%); /* Move the element up and left by half of its own width and height */
+    margin-top: 4rem;
+    font-size: 25px;
+}
+
+
+    @keyframes fade {
+        0% {
+            opacity: 0; /* Start with opacity 0 */
+        }
+        100% {
+            opacity: 1; /* End with opacity 1 */
+        }
+    }

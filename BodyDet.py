@@ -4,6 +4,14 @@ import mediapipe as mp
 import numpy as np
 import time 
 import random
+import pygame
+
+# Initialize pygame mixer
+pygame.mixer.init()
+
+# Load your audio file
+audio_file = "public/glittergeluid.mp3"
+pygame.mixer.music.load(audio_file)
 
 mp_selfie_segmentation = mp.solutions.selfie_segmentation
 
@@ -32,6 +40,8 @@ def fade_out(image):
 public_folder_path = "public"
 
 cap = cv2.VideoCapture(0)
+audio_playing = False  # Flag to track if audio is already playing
+
 
 with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segmentation:
     bg_image = None
@@ -83,6 +93,11 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
         if len(valid_contours) > 0:
             # Reset colors when a person is detected
             person_colors = {}
+            # Play audio only if it's not already playing
+            if not audio_playing:
+                pygame.mixer.music.play()
+                audio_playing = True
+
         for i, cnt in enumerate(valid_contours):
             if i not in person_colors:
                 # Generate a random color for each contour
@@ -142,6 +157,10 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
             captured = False
             start_still_time = None  # Restart the stillness timer
             is_still = False  # Reset the stillness flag
+
+            # Stop audio after displaying the captured image
+            pygame.mixer.music.stop()
+            audio_playing = False
 
         if captured:
             cv2.imshow('MediaPipe Selfie Segmentation', captured_image)

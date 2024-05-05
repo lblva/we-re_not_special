@@ -4,8 +4,10 @@ function preloadImages(imageUrls, callback) {
   let loadedImages = 0;
   let images = [];
   imageUrls.forEach(function(url) {
+    console.log('Preloading image: ' + url.src);
     let img = new Image();
     img.onload = function() {
+      console.log('Image loaded: ' + url.src);
       loadedImages++;
       if (loadedImages === imageUrls.length) {
         callback(images);
@@ -33,26 +35,27 @@ function drawImages(images) {
 
 // Add image URLs and their fixed positions here
 const imagePositions = [
-  { src: '/silhouette_1.png', position: { x: 5, y: 120 } },
-  { src: '/silhouette_2.png', position: { x: 90, y: 120 } },
-  { src: '/silhouette_3.png', position: { x: 180, y: 120 } },
-  { src: '/silhouette_4.png', position: { x: 260, y: 120 } },
-  { src: '/silhouette_5.png', position: { x: 340, y: 120 } },
-  { src: '/silhouette_6.png', position: { x: 420, y: 120 } },
-  { src: '/silhouette_7.png', position: { x: 500, y: 120 } },
-  { src: '/silhouette_8.png', position: { x: 580, y: 120 } },
-  { src: '/silhouette_9.png', position: { x: 660, y: 120 } },
-  { src: '/silhouette_10.png', position: { x: 740, y: 120 } },
-  { src: '/silhouette_11.png', position: { x: 820, y: 120 } },
-  { src: '/silhouette_12.png', position: { x: 880, y: 120 } },
-  { src: '/silhouette_12.png', position: { x: 960, y: 120 } },
-  { src: '/silhouette_14.png', position: { x: 1020, y: 120 } },
-  { src: '/silhouette_15.png', position: { x: 1100, y: 120 } },
-  { src: '/silhouette_16.png', position: { x: 1150, y: 120 } },
-  { src: '/silhouette_17.png', position: { x: 1210, y: 120 } },
-  { src: '/silhouette_18.png', position: { x: 1380, y: 120 } },
-  { src: '/silhouette_19.png', position: { x: 1440, y: 120 } },
-  { src: '/silhouette_20.png', position: { x: 1550, y: 120 } }
+  { src: '/silhouette_1.png', position: { x: 0, y: 120 } },
+  { src: '/silhouette_2.png', position: { x: 80, y: 120 } },
+  { src: '/silhouette_3.png', position: { x: 150, y: 120 } },
+  { src: '/silhouette_4.png', position: { x: 220, y: 120 } },
+  { src: '/silhouette_5.png', position: { x: 290, y: 120 } },
+  { src: '/silhouette_6.png', position: { x: 360, y: 120 } },
+  { src: '/silhouette_7.png', position: { x: 430, y: 120 } },
+  { src: '/silhouette_8.png', position: { x: 500, y: 120 } },
+  { src: '/silhouette_9.png', position: { x: 570, y: 120 } },
+  { src: '/silhouette_10.png', position: { x: 640, y: 120 } },
+  { src: '/silhouette_11.png', position: { x: 710, y: 120 } },
+  { src: '/silhouette_12.png', position: { x: 790, y: 120 } },
+  { src: '/silhouette_12.png', position: { x: 860, y: 120 } },
+  { src: '/silhouette_14.png', position: { x: 930, y: 120 } },
+  { src: '/silhouette_15.png', position: { x: 1000, y: 120 } },
+  { src: '/silhouette_16.png', position: { x: 1070, y: 120 } },
+  { src: '/silhouette_17.png', position: { x: 1150, y: 120 } },
+  { src: '/silhouette_18.png', position: { x: 1240, y: 120 } },
+  { src: '/silhouette_19.png', position: { x: 1320, y: 120 } },
+  { src: '/silhouette_20.png', position: { x: 1400, y: 120 } }
+  
 ];
 
 // Set canvas size to match viewport dimensions
@@ -62,8 +65,11 @@ canvas.height = window.innerHeight;
 
 // Preload images before drawing them onto the canvas
 setInterval(()=> {
+  console.log('Preloading images...');
   preloadImages(imagePositions, function(images) {
     drawImages(images);
+    console.log('Images loaded and drawn');
     
   })
 }, 5000)
+

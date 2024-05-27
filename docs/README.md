@@ -116,7 +116,21 @@ You won’t see any images displayed if you delete even one; there should always
 
 In your Python code, change:</br>
 
-<code style="color : aquamarine">image_counter += 1 </br> if image_counter > 20: </br>image_counter = 1 </code>
-image_counter += 1
-if image_counter > 20:
-    image_counter = 1
+![piece of code](/public/pycode_screen.png) </br>
+
+Change the 20 to whatever number you want. </br>
+
+In your JavaScript code, add or remove images in the const imagePositions array: </br>
+
+![piece of code](/public/jscode_screen.png) </br>
+
+## So, how was my experience overall?
+
+It was an interesting project. There were moments that made me want to pluck all my hair out, and there were moments that made me happy for finally fixing whatever problem I had. To be honest, I didn’t learn a lot, but I did gain some experience with Python. I learned what a virtual environment is, and I used the terminal more than ever before.</br>
+
+We originally wanted the silhouettes to have random prints, but we weren’t able to achieve that, so we used colors instead. That’s the only con; I’m happy with everything else code-wise.</br>
+
+The installation itself didn’t go exactly as we wanted, but it’s alright. We still managed to impress a special guest, who liked it and wants to use our installation at an event.</br>
+
+**Thank you**
+Thank you for reading this far. I hope you enjoyed it, and you are more than welcome to use this project.

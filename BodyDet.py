@@ -152,7 +152,7 @@ with mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as selfie_segm
                     image_counter = 1
 
  
-        elif captured and time.time() - capture_start_time >= 3:  # Display for 20 seconds
+        elif captured and time.time() - capture_start_time >= 3:  
             fade_out(captured_image)  # Fade out the captured image
             print("Captured image faded out.")
             captured = False

@@ -84,3 +84,39 @@ I'm going to share how I set up my installation on the day I had to present it. 
 I was originally planning to use a Raspberry Pi, and I tried to do so. But there was one problem: it was so slow! It couldn’t run my Python code and the HTML server at the same time. It crashed every single time I tried. I'm not sure what the problem was—whether the Raspberry Pi was slow on its own and there was nothing I could do, or there was a way to make it faster that my teacher and I didn't know about. We did try various solutions, but nothing worked. If you have experience with Raspberry Pi and know how to prevent it from lagging, I would 1000% recommend using it. But if you don't have one or yours also has performance issues, you can just use your laptop to run the code. </br>
 
 I had the option to set up my installation in either a classroom or a hallway. I chose the hallway so people could easily pass by the installation. Little did I know this was the wrong choice. I wanted to place it across the width of the hallway, but the walls were too close together for the projector. So, I had to set it up along the length of the hallway. As a result, the whole hallway was visible in the background, which caused the system to detect random objects as people, and the special sound played continuously. </br>
+
+The next problem was the projector. It wouldn't have been an issue if I could have installed it on the ceiling. Taping it wasn't an option either because it was too heavy. So, I had to place it on a chair, connected to my laptop. The person trying the installation had to stand to the side of the hallway since the projector was in the middle, which made the experience less pleasant. </br>
+
+I tried to improve the setup by hanging a large white cloth over a standing whiteboard, leaving only a small space for the person trying the installation. This was supposed to stop the code from identifying background objects as people. It helped, but didn't fully solve the problem because objects were still being detected through the small open space.</br>
+
+The last issue was that we wanted to make a frame from thin wood and place it around the projection, like a real painting in a museum. However, this wasn't possible because the frame was too large for the wood cutter. T.T</br>
+
+Okay, I made it sound very bad, but it actually wasn’t! Just not the way we wanted. An orthopedagogy professional actually liked the installation and asked me to collaborate and use it at an event next year. </br>
+
+**So, what will I do differently next time?** </br>
+
+What I will use: Raspberry Pi/laptop, external camera, projector/big monitor, and a frame.
+
+I will give the Raspberry Pi another chance. It would be great if it works without crashing, but if it still crashes, I'll use a laptop hidden from public view. I will hang the projector if possible; if not, I'll use a big monitor to display the output. I will also ensure the location has a fully white or plain-colored background. Additionally, I will frame the output like a real piece of art. The person should be able to stand anywhere within the zone that the camera covers. </br>
+
+# INSERT SKETCHES WITH RASPBERRY PI/LAPTOP AND PROJECTOR/MONITOR SETUPS
+
+**How do you actually set it up**
+
+1. Run the HTML with: <br> 
+<code style="color : aquamarine">npm run dev</code> </br>
+2. Then run your Python code (it is normal for it to take a little while).
+3. Make the browser full screen, and ta-da, it's ready.  </br>
+
+How you make the surroundings look good is up to you. I recommend doing it the way I plan to next time.</br> 
+
+## Be aware
+
+You won’t see any images displayed if you delete even one; there should always be 20 images. Do you want a different number, like 15 or 25? Then you will have to adjust the Python and JavaScript code. Here’s how to do it: </br>
+
+In your Python code, change:</br>
+
+<code style="color : aquamarine">image_counter += 1 </br> if image_counter > 20: </br>image_counter = 1 </code>
+image_counter += 1
+if image_counter > 20:
+    image_counter = 1

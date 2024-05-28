@@ -110,7 +110,7 @@ I'm going to share how I set up my installation on the day I had to present it. 
 </br>
 
 <div style="text-align:center;">
-    <img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="300" />
+    <img src="/public/og_setting.jpg" alt="image of my set up" style="display:block; margin:auto; width:auto; max-width:100%; height:300px;" />
 </div>
 
 **What I used:**

@@ -10,50 +10,36 @@
 </br> 
 
 ### Red Variations
-<span style="color: red;">Red</span>
-<span style="color: darkred;">DarkRed</span>
+![Red](https://img.shields.io/badge/Red-red?style=flat-square)
+![DarkRed](https://img.shields.io/badge/DarkRed-darkred?style=flat-square)
 
 ### Blue Variations
-<span style="color: blue;">Blue</span>
-<span style="color: lightblue;">LightBlue</span>
+![Blue](https://img.shields.io/badge/Blue-blue?style=flat-square)
+![LightBlue](https://img.shields.io/badge/LightBlue-lightblue?style=flat-square)
 
 ### Green Variations
-<span style="color: green;">Green</span>
-<span style="color: limegreen;">LimeGreen</span>
+![Green](https://img.shields.io/badge/Green-green?style=flat-square)
+![LimeGreen](https://img.shields.io/badge/LimeGreen-limegreen?style=flat-square)
 
 ### Yellow Variations
-<span style="color: yellow;">Yellow</span>
-<span style="color: gold;">Gold</span>
+![Yellow](https://img.shields.io/badge/Yellow-yellow?style=flat-square)
+![Gold](https://img.shields.io/badge/Gold-gold?style=flat-square)
 
 ### Orange Variations
-<span style="color: orange;">Orange</span>
-<span style="color: darkorange;">DarkOrange</span>
+![Orange](https://img.shields.io/badge/Orange-orange?style=flat-square)
+![DarkOrange](https://img.shields.io/badge/DarkOrange-darkorange?style=flat-square)
 
 ### Purple Variations
-<span style="color: purple;">Purple</span>
-<span style="color: mediumpurple;">MediumPurple</span>
+![Purple](https://img.shields.io/badge/Purple-purple?style=flat-square)
+![MediumPurple](https://img.shields.io/badge/MediumPurple-mediumpurple?style=flat-square)
 
 ### Pink Variations
-<span style="color: pink;">Pink</span>
-<span style="color: deeppink;">DeepPink</span>
+![Pink](https://img.shields.io/badge/Pink-pink?style=flat-square)
+![DeepPink](https://img.shields.io/badge/DeepPink-deeppink?style=flat-square)
 
 ### Brown Variations
-<span style="color: brown;">Brown</span>
-<span style="color: sienna;">Sienna</span>
-
-### Gray Variations
-<span style="color: gray;">Gray</span>
-<span style="color: darkgray;">DarkGray</span>
-
-### Cyan Variations
-<span style="color: cyan;">Cyan</span>
-<span style="color: darkcyan;">DarkCyan</span>
-
-### Example Usage
-
-Here's an example sentence with different colored text:
-
-This is <span style="color: red;">Red</span>, this is <span style="color: blue;">Blue</span>, and this is <span style="color: green;">Green</span>. </br>
+![Brown](https://img.shields.io/badge/Brown-brown?style=flat-square)
+![Sienna](https://img.shields.io/badge/Sienna-sienna?style=flat-square) </br>
 
 ##  Concept
 With the 'We're NOT Special' installation, you leave your unique silhouette on the screen. This way, everyone who passes by can leave their mark, creating a collective work of art that embodies inclusivity. Because inclusivity is important in society, this interactive multimedia installation shows that everyone is unique in their own way, yet we are all just people, and one is not better than the other. </br> </br>

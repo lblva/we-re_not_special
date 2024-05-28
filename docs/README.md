@@ -39,16 +39,16 @@ The video does not show you how to download Python or the necessary libraries, s
 **Step 2:** Create a virtual environment. It is good practice to use a virtual environment for Python projects. By doing so, you create an isolated environment and ensure your project remains unaffected by changes made to other projects. To create a virtual environment, open the terminal and type:
 <code style="color : aquamarine">python -m venv myenv</code> </br>
 
-<sub>myenv is the name for the environment; you can choose any name you like.</sub> </br>
+*(myenv is the name for the environment; you can choose any name you like.)* </br>
 
 You will get a notification; you can click "yes." </br>
-<img src="/public/env_notification.png" alt="notification you get" width="300" height="auto">
+<img src="/public/env_notification.png" alt="notification you get" width="350" height="auto">
 
 Now, our environment is created, but it has yet to be activated. To activate it, type the following in the terminal: 
 <code style="color : aquamarine">myenv\Scripts\activate</code> </br>
 
 You should see the name of your environment at the beginning of the path in your terminal, indicating that you are inside the environment. Don't forget to activate the environment every time you open your project!
-<img src="/public/myenv.png" alt="how you can tell that u'r inside the envirment" width="150" height="100">
+<img src="/public/myenv.png" alt="how you can tell that u'r inside the envirment" width="auto" height="100">
 
 Now that we have Python and a virtual environment, you can start installing packages.</br> </br>
 

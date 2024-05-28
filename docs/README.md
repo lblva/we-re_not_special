@@ -9,6 +9,52 @@
 6. Overall experience
 </br> 
 
+### Red Variations
+<span style="color: red;">Red</span>
+<span style="color: darkred;">DarkRed</span>
+
+### Blue Variations
+<span style="color: blue;">Blue</span>
+<span style="color: lightblue;">LightBlue</span>
+
+### Green Variations
+<span style="color: green;">Green</span>
+<span style="color: limegreen;">LimeGreen</span>
+
+### Yellow Variations
+<span style="color: yellow;">Yellow</span>
+<span style="color: gold;">Gold</span>
+
+### Orange Variations
+<span style="color: orange;">Orange</span>
+<span style="color: darkorange;">DarkOrange</span>
+
+### Purple Variations
+<span style="color: purple;">Purple</span>
+<span style="color: mediumpurple;">MediumPurple</span>
+
+### Pink Variations
+<span style="color: pink;">Pink</span>
+<span style="color: deeppink;">DeepPink</span>
+
+### Brown Variations
+<span style="color: brown;">Brown</span>
+<span style="color: sienna;">Sienna</span>
+
+### Gray Variations
+<span style="color: gray;">Gray</span>
+<span style="color: darkgray;">DarkGray</span>
+
+### Cyan Variations
+<span style="color: cyan;">Cyan</span>
+<span style="color: darkcyan;">DarkCyan</span>
+
+### Example Usage
+
+Here's an example sentence with different colored text:
+
+This is <span style="color: red;">Red</span>, this is <span style="color: blue;">Blue</span>, and this is <span style="color: green;">Green</span>. </br>
+
 ##  Concept
 With the 'We're NOT Special' installation, you leave your unique silhouette on the screen. This way, everyone who passes by can leave their mark, creating a collective work of art that embodies inclusivity. Because inclusivity is important in society, this interactive multimedia installation shows that everyone is unique in their own way, yet we are all just people, and one is not better than the other. </br> </br>
 
@@ -132,5 +178,5 @@ We originally wanted the silhouettes to have random prints, but we weren’t abl
 
 The installation itself didn’t go exactly as we wanted, but it’s alright. We still managed to impress a special guest, who liked it and wants to use our installation at an event.</br>
 
-**Thank you**
+## Thank you </br>
 Thank you for reading this far. I hope you enjoyed it, and you are more than welcome to use this project.

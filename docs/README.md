@@ -39,11 +39,11 @@ I started my project with the following tutorial: [Body Segmentation Tutorial](h
 ````sh
 python -m venv myenv
 ```` 
- </br>  <sub>(btw, myenv is the name for the environment; you can choose any name you like.) </sub> </br> 
+<sub>(btw, myenv is the name for the environment; you can choose any name you like.) </sub> </br> 
 
 
-You will get a notification; you can click "yes." </br>
-<img src="/public/env_notification.png" alt="notification you get" width="350" height="auto">
+You will get a notification; you can click "yes." </br> </br>
+<img src="/public/env_notification.png" alt="notification you get" width="350" height="auto"> </br>
 
 Now, our environment is created, but it has yet to be activated. To activate it, type the following in the terminal: </br>
 
@@ -51,13 +51,17 @@ Now, our environment is created, but it has yet to be activated. To activate it,
 python -m venv myenv
 ```` 
 
-You should see the name of your environment at the beginning of the path in your terminal, indicating that you are inside the environment. Don't forget to activate the environment every time you open your project!
-<img src="/public/myenv.png" alt="how you can tell that u'r inside the envirment" width="auto" height="30">
+You should see the name of your environment at the beginning of the path in your terminal, indicating that you are inside the environment. Don't forget to activate the environment every time you open your project! </br>
+<img src="/public/myenv.png" alt="how you can tell that u'r inside the envirment" width="auto" height="25">
 
 Now that we have Python and a virtual environment, you can start installing packages.</br> </br>
 
-**Step 3:** Install OpenCV. Open the terminal in your project and type: <code style="color : aquamarine">pip install opencv-python</code> </br>
-(By the way, this should also install NumPy, so you normally shouldn't need to install it separately.)</br> </br>
+**Step 3:** Install OpenCV. Open the terminal in your project and type: </br> 
+````sh
+pip install opencv-python
+```` 
+</br>
+<sub> (By the way, this should also install NumPy, so you normally shouldn't need to install it separately.) </sub> </br>
 
 **Step 4:** Install MediaPipe. Go to the terminal and type:</br> 
 ````sh
@@ -106,12 +110,6 @@ These codes are also provided. You should not face any problems with these codes
 I'm going to share how I set up my installation on the day I had to present it. I thought I was doing it correctly, but I realized too late that I wasn't. However, I learned from the mistake and now know how to do it better in the future. So, how did I do it?
 
 <img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="300">
-
-</br>
-
-<div style="text-align:center;">
-    <img src="/public/og_setting.jpg" alt="image of my set up" style="display:block; margin:auto; width:auto; max-width:100%; height:300px;" />
-</div>
 
 **What I used:**
 

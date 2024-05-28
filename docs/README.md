@@ -73,7 +73,7 @@ These codes are also provided. You should not face any problems with these codes
 I'm going to share how I set up my installation on the day I had to present it. I thought I was doing it correctly, but I realized too late that I wasn't. However, I learned from the mistake and now know how to do it better in the future. So, how did I do it?
 
 ![image of my set up](/public/og_setting.jpg)
-<img src="/public/og_setting.jpg" alt="image of my set up" width="100" height="100">
+<img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="300">
 
 **What I used:**
 
@@ -102,7 +102,7 @@ What I will use: Raspberry Pi/laptop, external camera, projector/big monitor, an
 I will give the Raspberry Pi another chance. It would be great if it works without crashing, but if it still crashes, I'll use a laptop hidden from public view. I will hang the projector if possible; if not, I'll use a big monitor to display the output. I will also ensure the location has a fully white or plain-colored background. Additionally, I will frame the output like a real piece of art. The person should be able to stand anywhere within the zone that the camera covers. </br>
 
 ![image of how the set up should be](/public/new_setting.jpg)
-<img src="/public/new_setting.jpg" alt="image of how the set up should be" width="200" height="200">
+<img src="/public/new_setting.jpg" alt="image of how the set up should be" width="auto" height="200">
 
 **How do you actually set it up**
 

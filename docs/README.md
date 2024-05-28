@@ -51,7 +51,7 @@ Now, our environment is created, but it has yet to be activated. To activate it,
 python -m venv myenv
 ```` 
 
-You should see the name of your environment at the beginning of the path in your terminal, indicating that you are inside the environment. Don't forget to activate the environment every time you open your project! </br>
+You should see the name of your environment at the beginning of the path in your terminal, indicating that you are inside the environment. Don't forget to activate the environment every time you open your project! </br> </br>
 <img src="/public/myenv.png" alt="how you can tell that u'r inside the envirment" width="auto" height="25">
 
 Now that we have Python and a virtual environment, you can start installing packages.</br> </br>
@@ -60,20 +60,21 @@ Now that we have Python and a virtual environment, you can start installing pack
 ````sh
 pip install opencv-python
 ```` 
-</br>
-<sub> (By the way, this should also install NumPy, so you normally shouldn't need to install it separately.) </sub> </br>
+<sub> (By the way, this should also install NumPy, so you normally shouldn't need to install it separately.) </sub> 
+</br> </br>
 
 **Step 4:** Install MediaPipe. Go to the terminal and type:</br> 
 ````sh
 pip install mediapipe
 ```` 
-</br>
 
-You should be able to run the code, and this should be the result: “INSERT PHOTO”.
+You should be able to run the code, and this should be the result: </br>
+
+<img src="/public/pycode.jpg" alt="pycode body segmentation result" width="auto" height="300">
 
 So now we have our base, but this is only the beginning. Let’s move on to the next steps!
 
-We need a random color generator; in this case, I want pastel-ish colors. Each silhouette should get its own unique color. We also want to add a sound every time the camera detects a person, and we want to take pictures and save them in the public folder. I would love to explain how to do this step by step, but as I already stated, I’m a beginner myself, so I’m not able to do so. You'll get the full code in the BodyDet.py file anyway.
+We need a random color generator; in this case, I want pastel-ish colors. Each silhouette should get its own unique color. We also want to add a sound every time the camera detects a person, and we want to take pictures and save them in the public folder. I would love to explain how to do this step by step, but as I already stated, I’m a beginner myself, so I’m not able to do so. You can find the full code in the "BodyDet.py" file.
 
 You do have to install one last library for the sound. Let’s install PyGame. Go to the terminal and type:</br>
 ````sh
@@ -81,11 +82,12 @@ pip3 install pygame
 ```` 
 </br>
 
-Everything should work now. Do you face some problems? Google, YouTube, and ChatGPT are your best friends :3.
+Everything should work now. Incase you DO face some problems, *Google, YouTube, and ChatGPT are your best friends :3*
 
-But wait! That’s not all! We have to display the taken images of our silhouettes!
+But wait! That’s not all- We have to display the taken images of our silhouettes!
 
-I created a HTML file with a canvas and some text, the images are being displayed inside the canvas. I use Vite, so you don’t have to use a live server. To set it up, go to the terminal and type: </br>
+I created a HTML file with a canvas and some text, the images are being displayed inside the canvas. I use [Vite](https://www.educative.io/answers/what-is-vitejs), so you don’t have to use a live server. To set it up, go to the terminal and type: </br>
+
 ````sh
 npm install
 ```` 
@@ -97,13 +99,12 @@ npm run dev
 ```` 
 </br>
 
-This will give you a localhost server that automatically refreshes.
+This gives you a localhost server that automatically refreshes.
 
-We should also create a CSS file where we style the canvas and the text.
+I also created a CSS file to style the canvas and the text.
 
-Last but not least, we should create a JavaScript file where we import the images and position them. We also need to make it automatically reload every few seconds. I positioned the images horizontally next to each other, but you can change the positioning to suit your preference.
+And last but not least, I created a JavaScript file to import and position the images. I positioned them horizontally next to each other, but you can change the positioning to suit your preference. I also made the page reload every few seconds.
 
-These codes are also provided. You should not face any problems with these codes.
 
 ## Set up installation
 

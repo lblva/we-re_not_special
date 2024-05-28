@@ -30,8 +30,7 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 ## The code
 *(Disclaimer: I had never used Python before, so I had to rely on YouTube tutorials and ChatGPT.)*
 
-I started my project with the following tutorial: [Body Segmentation Tutorial](https://www.youtube.com/watch?v=IZEkwUJ6QGQ&list=LL&index=1&t=122s). This tutorial is about body segmentation. After following the tutorial, you will have a code that segments your body silhouette. <br style="line-height:0">
-The video does not show you how to download Python or the necessary libraries, so I will.
+I started my project with the following tutorial: [Body Segmentation Tutorial](https://www.youtube.com/watch?v=IZEkwUJ6QGQ&list=LL&index=1&t=122s). This tutorial is about body segmentation. After following the tutorial, you will have a code that segments your body silhouette. The video does not show you how to download Python or the necessary libraries, so I will.
 
 **Step 1:** Download Python from [this site](https://www.python.org/downloads/). I recommend version 3.8, 64-bit. </br> </br>
 
@@ -40,14 +39,17 @@ The video does not show you how to download Python or the necessary libraries, s
 ````sh
 python -m venv myenv
 ```` 
- </br> *(btw, myenv is the name for the environment; you can choose any name you like.)* </br> 
+ </br>  <sub>(btw, myenv is the name for the environment; you can choose any name you like.) </sub> </br> 
 
 
 You will get a notification; you can click "yes." </br>
 <img src="/public/env_notification.png" alt="notification you get" width="350" height="auto">
 
-Now, our environment is created, but it has yet to be activated. To activate it, type the following in the terminal: 
-<code style="color : aquamarine">myenv\Scripts\activate</code> </br>
+Now, our environment is created, but it has yet to be activated. To activate it, type the following in the terminal: </br>
+
+````sh
+python -m venv myenv
+```` 
 
 You should see the name of your environment at the beginning of the path in your terminal, indicating that you are inside the environment. Don't forget to activate the environment every time you open your project!
 <img src="/public/myenv.png" alt="how you can tell that u'r inside the envirment" width="auto" height="30">
@@ -58,7 +60,10 @@ Now that we have Python and a virtual environment, you can start installing pack
 (By the way, this should also install NumPy, so you normally shouldn't need to install it separately.)</br> </br>
 
 **Step 4:** Install MediaPipe. Go to the terminal and type:</br> 
-<code style="color : aquamarine">pip install mediapipe</code> </br>
+````sh
+pip install mediapipe
+```` 
+</br>
 
 You should be able to run the code, and this should be the result: “INSERT PHOTO”.
 
@@ -67,16 +72,26 @@ So now we have our base, but this is only the beginning. Let’s move on to the 
 We need a random color generator; in this case, I want pastel-ish colors. Each silhouette should get its own unique color. We also want to add a sound every time the camera detects a person, and we want to take pictures and save them in the public folder. I would love to explain how to do this step by step, but as I already stated, I’m a beginner myself, so I’m not able to do so. You'll get the full code in the BodyDet.py file anyway.
 
 You do have to install one last library for the sound. Let’s install PyGame. Go to the terminal and type:</br>
-<code style="color : aquamarine">pip3 install pygame</code> </br>
+````sh
+pip3 install pygame
+```` 
+</br>
+
 Everything should work now. Do you face some problems? Google, YouTube, and ChatGPT are your best friends :3.
 
 But wait! That’s not all! We have to display the taken images of our silhouettes!
 
 I created a HTML file with a canvas and some text, the images are being displayed inside the canvas. I use Vite, so you don’t have to use a live server. To set it up, go to the terminal and type: </br>
-<code style="color : aquamarine">npm install</code> </br>
+````sh
+npm install
+```` 
+</br>
 
 After it installs, type: </br>
-<code style="color : aquamarine">npm run dev</code> </br>
+````sh
+npm run dev
+```` 
+</br>
 
 This will give you a localhost server that automatically refreshes.
 
@@ -91,6 +106,12 @@ These codes are also provided. You should not face any problems with these codes
 I'm going to share how I set up my installation on the day I had to present it. I thought I was doing it correctly, but I realized too late that I wasn't. However, I learned from the mistake and now know how to do it better in the future. So, how did I do it?
 
 <img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="300">
+
+</br>
+
+<div style="text-align:center;" width="auto" height="300" >
+    <img src="/public/og_setting.jpg" alt="image of my set up" />
+</div>
 
 **What I used:**
 
@@ -123,7 +144,10 @@ I will give the Raspberry Pi another chance. It would be great if it works witho
 **How do you actually set it up**
 
 1. Run the HTML with: <br> 
-<code style="color : aquamarine">npm run dev</code> </br>
+````sh
+npm run dev
+```` 
+</br>
 2. Then run your Python code (it is normal for it to take a little while).
 3. Make the browser full screen, and ta-da, it's ready.  </br>
 

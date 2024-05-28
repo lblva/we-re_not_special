@@ -9,37 +9,6 @@
 6. Overall experience
 </br> 
 
-### Red Variations
-![Red](https://img.shields.io/badge/Red-red?style=flat-square)
-![DarkRed](https://img.shields.io/badge/DarkRed-darkred?style=flat-square)
-
-### Blue Variations
-![Blue](https://img.shields.io/badge/Blue-blue?style=flat-square)
-![LightBlue](https://img.shields.io/badge/LightBlue-lightblue?style=flat-square)
-
-### Green Variations
-![Green](https://img.shields.io/badge/Green-green?style=flat-square)
-![LimeGreen](https://img.shields.io/badge/LimeGreen-limegreen?style=flat-square)
-
-### Yellow Variations
-![Yellow](https://img.shields.io/badge/Yellow-yellow?style=flat-square)
-![Gold](https://img.shields.io/badge/Gold-gold?style=flat-square)
-
-### Orange Variations
-![Orange](https://img.shields.io/badge/Orange-orange?style=flat-square)
-![DarkOrange](https://img.shields.io/badge/DarkOrange-darkorange?style=flat-square)
-
-### Purple Variations
-![Purple](https://img.shields.io/badge/Purple-purple?style=flat-square)
-![MediumPurple](https://img.shields.io/badge/MediumPurple-mediumpurple?style=flat-square)
-
-### Pink Variations
-![Pink](https://img.shields.io/badge/Pink-pink?style=flat-square)
-![DeepPink](https://img.shields.io/badge/DeepPink-deeppink?style=flat-square)
-
-### Brown Variations
-![Brown](https://img.shields.io/badge/Brown-brown?style=flat-square)
-![Sienna](https://img.shields.io/badge/Sienna-sienna?style=flat-square) </br>
 
 ##  Concept
 With the 'We're NOT Special' installation, you leave your unique silhouette on the screen. This way, everyone who passes by can leave their mark, creating a collective work of art that embodies inclusivity. Because inclusivity is important in society, this interactive multimedia installation shows that everyone is unique in their own way, yet we are all just people, and one is not better than the other. </br> </br>
@@ -103,7 +72,7 @@ These codes are also provided. You should not face any problems with these codes
 
 I'm going to share how I set up my installation on the day I had to present it. I thought I was doing it correctly, but I realized too late that I wasn't. However, I learned from the mistake and now know how to do it better in the future. So, how did I do it?
 
-# INSERT IMAGE SKETCH
+![image of my set up](/public/og_setting.jpg)
 
 **What I used:**
 
@@ -131,7 +100,7 @@ What I will use: Raspberry Pi/laptop, external camera, projector/big monitor, an
 
 I will give the Raspberry Pi another chance. It would be great if it works without crashing, but if it still crashes, I'll use a laptop hidden from public view. I will hang the projector if possible; if not, I'll use a big monitor to display the output. I will also ensure the location has a fully white or plain-colored background. Additionally, I will frame the output like a real piece of art. The person should be able to stand anywhere within the zone that the camera covers. </br>
 
-# INSERT SKETCHES WITH RASPBERRY PI/LAPTOP AND PROJECTOR/MONITOR SETUPS
+![image of how the set up should be](/public/new_setting.jpg)
 
 **How do you actually set it up**
 

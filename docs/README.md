@@ -109,8 +109,8 @@ I'm going to share how I set up my installation on the day I had to present it. 
 
 </br>
 
-<div style="text-align:center;" width="auto" height="300" >
-    <img src="/public/og_setting.jpg" alt="image of my set up" />
+<div style="text-align:center;">
+    <img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="300" />
 </div>
 
 **What I used:**

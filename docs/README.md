@@ -14,14 +14,19 @@
 With the 'We're NOT Special' installation, you leave your unique silhouette on the screen. This way, everyone who passes by can leave their mark, creating a collective work of art that embodies inclusivity. Because inclusivity is important in society, this interactive multimedia installation shows that everyone is unique in their own way, yet we are all just people, and one is not better than the other. </br> </br></br>
 
 ##  Used software
+**We used the following languages:** </br> 
+* Python
+* JavaScript
+* HTML
+* CSS </br>
 
-| We used the following languages:  | and Libraries & Modules:   |
-|-----------------------------------|----------------------------|
-| - Python                          | - OpenCV                   |
-| - JavaScript                      | - MediaPipe                |
-| - HTML                            | - NumPy                    |
-| - CSS                             | - Time                     |
-|                                   | - Pygame                   |
+**We also used the following libraries and modules:** </br> 
+* OpenCV
+* MediaPipe
+* NumPy
+* Time
+* Pygame </br> </br>
+
 
 ## The code
 *(Disclaimer: I had never used Python before, so I had to rely on YouTube tutorials and ChatGPT.)*

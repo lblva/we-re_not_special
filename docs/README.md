@@ -7,7 +7,7 @@
 4. Set up installation
 5. Be aware
 6. Overall experience
-</br></br></br>
+</br></br>
 
 
 ##  Concept
@@ -25,7 +25,7 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 * MediaPipe
 * NumPy
 * Time
-* Pygame </br> </br>
+* Pygame </br> </br> </br>
 
 
 ## The code
@@ -160,16 +160,17 @@ I will give Raspberry Pi another chance, tho i'm sure ill need a better one, may
 
 <img src="/public/new_setting.jpg" alt="image of how the set up should be" width="auto" height="240">
 
-### Set  installation- code wise
+### Set up installation- code wise
 
 
-1. Run the HTML with: <br> 
+**step 1** Run the HTML with: <br> 
 ````sh
 npm run dev
 ```` 
 </br>
-2. Then run your Python code (it is normal for it to take a little while). </br>
-3. Make the browser full screen, and ta-da, it's ready.  </br>
+
+**step 2** Then run your Python code (it is normal for it to take a little while). </br>
+**step 3** Make the browser full screen, and ta-da, it's ready.  </br>
 
 
 ## Be aware
@@ -187,11 +188,11 @@ In your JavaScript code, add or remove images in the const imagePositions array:
 
 ## So, how was my experience overall?
 
-It was quite an interesting project. There were moments when I felt like pulling out all my hair, and there were moments that made me happy for finally fixing whatever problem I had. To be honest, Honestly, I didn’t learn as much as I had hoped, but I did gain some experience with Python, learned what a virtual environment is, and found myself using the terminal more than ever before.</br>
+It was quite an interesting project. There were moments when I felt like pulling out all my hair, and there were moments that made me happy for finally fixing whatever problem I had. Honestly, I didn’t learn as much as I had hoped, but I did gain some experience with Python, learned what a virtual environment is, and found myself using terminal more than ever before.</br>
 
 We wanted the silhouettes to have random prints originally, but we couldn't make it work. So, we went with colors instead. That's the only downside; otherwise, I'm happy with how everything else turned out in the code.</br>
 
 The installation itself didn’t go exactly as we wanted, but it’s alright. We still managed to impress a special guest.</br>
 
 ## Thank you </br>
-Thanks for sticking with me this far! I hope you found it enjoyable. Feel free to use this project if it's helpful to you.
+Thanks for sticking with me this far! Feel free to use this project if it's helpful to you.

@@ -118,6 +118,12 @@ Setting up my installation didn't go as smoothly as I thought it would. So, I'm 
 <img src="/public/installation-img-2.jpg" alt="image of my set up" width="auto" height="200">
 <img src="/public/installation-img-3.jpg" alt="image of my set up" width="auto" height="200">
 
+<p float="left">
+  <img src="/public/installation-img-1.jpg" width="100" />
+  <img src="/public/installation-img-1.jpg" width="100" /> 
+  <img src="/public/installation-img-1.jpg" width="100" />
+</p>
+
 **What I used:**
 
 1. Laptop

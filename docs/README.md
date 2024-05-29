@@ -60,14 +60,16 @@ You should see the name of your environment at the beginning of the path in your
 
 Now that we have Python and a virtual environment, you can start installing packages.</br> </br>
 
-**Step 3:** Install OpenCV. Open the terminal in your project and type: </br> 
+## Step 3:
+Install OpenCV. Open the terminal in your project and type: </br> 
 ````sh
 pip install opencv-python
 ```` 
 <sub> (By the way, this should also install NumPy, so you normally shouldn't need to install it separately.) </sub> 
 </br> </br>
 
-**Step 4:** Install MediaPipe. Go to the terminal and type:</br> 
+## Step 4: 
+Install MediaPipe. Go to the terminal and type:</br> 
 ````sh
 pip install mediapipe
 ```` 
@@ -80,7 +82,8 @@ So now we have our base, but this is only the beginning. Let’s move on to the 
 
 We need a random color generator; in this case, I want pastel-ish colors. Each silhouette should get its own unique color. We also want to add a sound every time the camera detects a person, and we want to take pictures and save them in the public folder. I would love to explain how to do this step by step, but as I already stated, I’m a beginner myself, so I’m not able to do so. You can find the full code in the "BodyDet.py" file.</br></br>
 
-**Step 5:** Now we have to install the last library, PyGame. Go to the terminal and type:</br>
+## Step 5: 
+Now we have to install the last library, PyGame. Go to the terminal and type:</br>
 
 ````sh
 pip3 install pygame

@@ -28,45 +28,13 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 * Pygame </br> </br>
 
 
-    <table>
-        <tr>
-            <th>Used Languages:</th>
-        </tr>
-        <tr>
-            <td>- Python</td>
-        </tr>
-        <tr>
-            <td>- JavaScript</td>
-        </tr>
-        <tr>
-            <td>- HTML</td>
-        </tr>
-        <tr>
-            <td>- CSS</td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <th>Used Libraries and Modules:</th>
-        </tr>
-        <tr>
-            <td>- OpenCV</td>
-        </tr>
-        <tr>
-            <td>- MediaPipe</td>
-        </tr>
-        <tr>
-            <td>- NumPy</td>
-        </tr>
-        <tr>
-            <td>- Time</td>
-        </tr>
-        <tr>
-            <td>- Pygame</td>
-        </tr>
-    </table>
-<</br>
+| Used Languages: | Used Libraries and Modules: |
+|-----------------|-----------------------------|
+| - Python        | - OpenCV                    |
+| - JavaScript    | - MediaPipe                 |
+| - HTML          | - NumPy                     |
+| - CSS           | - Time                      |
+|                 | - Pygame                    |
 
 ## The code
 *(Disclaimer: I had never used Python before, so I had to rely on YouTube tutorials and ChatGPT.)*

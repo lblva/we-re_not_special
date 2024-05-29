@@ -186,7 +186,7 @@ In your JavaScript code, add or remove images in the const imagePositions array:
 
 ![piece of code](/public/jscode_screen.png) </br>
 
-## Overall experience?
+## Overall experience
 
 It was quite an interesting project. There were moments when I felt like pulling out all my hair, and there were moments that made me happy for finally fixing whatever problem I had. Honestly, I didn’t learn as much as I had hoped, but I did gain some experience with Python, learned what a virtual environment is, and found myself using terminal more than ever before.</br>
 

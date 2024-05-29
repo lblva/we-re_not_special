@@ -27,6 +27,14 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 * Time
 * Pygame </br> </br>
 
+| We used the following languages:  | Libraries and Modules:     |
+|-----------------------------------|----------------------------|
+| - Python                          | - OpenCV                   |
+| - JavaScript                      | - MediaPipe                |
+| - HTML                            | - NumPy                    |
+| - CSS                             | - Time                     |
+|                                   | - Pygame                   | 
+</br> </br>
 
 ## The code
 *(Disclaimer: I had never used Python before, so I had to rely on YouTube tutorials and ChatGPT.)*
@@ -40,7 +48,13 @@ I started my project with the following tutorial: [Body Segmentation Tutorial](h
 ````sh
 python -m venv myenv
 ```` 
-<sub>(btw, myenv is the name for the environment; you can choose any name you like.) </sub> </br> 
+###### (btw, myenv is the name for the environment; you can choose any name you like.)  </br> 
+<span style="color: blue;">This text is blue.</span>
+<span style="color: #ff0000;">This text is red using hex code.</span>
+<span style="color: rgb(255, 0, 0);">This text is red using RGB values.</span>
+<mark>Dit is gemarkeerde tekst.</mark>
+
+
 
 
 You will get a notification; you can click "yes." </br> </br>

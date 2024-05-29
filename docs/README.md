@@ -116,9 +116,9 @@ Setting up my installation didn't go as smoothly as I thought it would. So, I'm 
 
 
 <p float="left">
-  <img src="/public/installation-img-1.jpg" width="280" /> 
-  <img src="/public/installation-img-2.jpg" width="280" />
-  <img src="/public/installation-img-3.jpg" width="280" /> 
+  <img src="/public/installation-img-1.jpg" width="272" /> 
+  <img src="/public/installation-img-2.jpg" width="272" />
+  <img src="/public/installation-img-3.jpg" width="272" /> 
 </p>
 
 **What I used:**
@@ -126,26 +126,32 @@ Setting up my installation didn't go as smoothly as I thought it would. So, I'm 
 1. Laptop
 2. External camera
 3. Projector
-4. White material
+4. White fabric
 5. Whiteboard with stand
 
-I was originally planning to use a Raspberry Pi, and I tried to do so. But there was one problem: it was so slow! It couldn’t run my Python code and the HTML server at the same time. It crashed every single time I tried. I'm not sure what the problem was—whether the Raspberry Pi was slow on its own and there was nothing I could do, or there was a way to make it faster that my teacher and I didn't know about. We did try various solutions, but nothing worked. If you have experience with Raspberry Pi and know how to prevent it from lagging, I would 1000% recommend using it. But if you don't have one or yours also has performance issues, you can just use your laptop to run the code. </br>
+#### raspberry pi
+I was originally planning to use a Raspberry Pi, and I tried to do so. But there was one problem: it was SO slow! It couldn’t run my Python code and the HTML server at the same time. It crashed every single time I tried. I'm not sure what the problem was—whether the Raspberry Pi was just very slow and there was nothing I could do, or if there was a way to make it faster that my teacher and I didn't know about. We tried various "solutions" but nothing worked. If you have experience with Raspberry Pi and know how to prevent it from lagging, I would 100% recommend using it. But if you don't have one or if it also has performance issues, you can just use your laptop to run the code. </br>
 
-I had the option to set up my installation in either a classroom or a hallway. I chose the hallway so people could easily pass by the installation. Little did I know this was the wrong choice. I wanted to place it across the width of the hallway, but the walls were too close together for the projector. So, I had to set it up along the length of the hallway. As a result, the whole hallway was visible in the background, which caused the system to detect random objects as people, and the special sound played continuously. </br>
+#### location
+I had the option to set up my installation in either a classroom or a hallway. I chose the hallway so people could easily pass by the installation. Little did I know that this would be the wrong choice. I wanted to place it across the width of the hallway, but the walls were too close together for the projector. So, I had to set it up along the length of the hallway. As a result, the entire hallway was visible in the background. I tried to improve the setup by hanging a large white cloth over a standing whiteboard, leaving only a small space for the person trying the installation. This was supposed to stop the code from identifying background objects as people. It helped, but didn't fully solve the problem because objects were STILL being detected through the small open space, causing the system to detect random objects as people and continuously play the special sound. </br>
 
-The next problem was the projector. It wouldn't have been an issue if I could have installed it on the ceiling. Taping it wasn't an option either because it was too heavy. So, I had to place it on a chair, connected to my laptop. The person trying the installation had to stand to the side of the hallway since the projector was in the middle, which made the experience less pleasant. </br>
+#### projector
+The next problem was the projector. It wouldn't have been a problem if I could have installed it on the ceiling. Taping it wasn't an option either because it was too heavy. So, I had to place it on a chair, connected to my laptop. The person trying the installation had to stand to the side of the hallway since the projector was in the middle. This made the experience less pleasant. </br>
 
-I tried to improve the setup by hanging a large white cloth over a standing whiteboard, leaving only a small space for the person trying the installation. This was supposed to stop the code from identifying background objects as people. It helped, but didn't fully solve the problem because objects were still being detected through the small open space.</br>
+#### frame
+The last problem was that we wanted to create a wooden frame and place it around the projection, mimicking a real painting in a museum. However, it was impossible because the frame was too large for the wood cutter. T.T</br>
 
-The last issue was that we wanted to make a frame from thin wood and place it around the projection, like a real painting in a museum. However, this wasn't possible because the frame was too large for the wood cutter. T.T</br>
+Okay, I made it sound very bad, but it actually wasn’t! It just didn't turn out the way we wanted. Surprisingly, an orthopedagogical professional actually liked the installation and asked me to collaborate and use it at an event next year! xD > </br>
 
-Okay, I made it sound very bad, but it actually wasn’t! Just not the way we wanted. An orthopedagogy professional actually liked the installation and asked me to collaborate and use it at an event next year. </br>
+### So, what will I do differently next time? </br>
 
-**So, what will I do differently next time?** </br>
+**What I will use:**
+* Raspberry Pi
+* external camera
+* projector
+* frame.
 
-What I will use: Raspberry Pi/laptop, external camera, projector/big monitor, and a frame.
-
-I will give the Raspberry Pi another chance. It would be great if it works without crashing, but if it still crashes, I'll use a laptop hidden from public view. I will hang the projector if possible; if not, I'll use a big monitor to display the output. I will also ensure the location has a fully white or plain-colored background. Additionally, I will frame the output like a real piece of art. The person should be able to stand anywhere within the zone that the camera covers. </br>
+I will give Raspberry Pi another chance, tho i'm sure ill need a better one, maybe use raspberry pi 5 instead of 4? I will also somehow hang the projector. I will also ensure that the location has a fully white or plain-colored background. Additionally, I will put a wooden frame around the projection like a real piece of art. I will order the size i need or cut the wood myself instead of laser cutting it. The person should also be able to stand anywhere within the zone that the camera takes. <sub>yeah.. the solution is not cheap</sub> </br>
 
 <img src="/public/new_setting.jpg" alt="image of how the set up should be" width="auto" height="300">
 

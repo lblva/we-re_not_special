@@ -15,13 +15,13 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 
 ##  Used software
 
-| Languages:        | Libraries and Modules:   |
-|-------------------|--------------------------|
-| - Python          | - OpenCV                 |
-| - JavaScript      | - MediaPipe              |
-| - HTML            | - NumPy                  |
-| - CSS             | - Time                   |
-|                   | - Pygame                 |
+| We used the following languages:  | and Libraries & Modules:   |
+|-----------------------------------|----------------------------|
+| - Python                          | - OpenCV                   |
+| - JavaScript                      | - MediaPipe                |
+| - HTML                            | - NumPy                    |
+| - CSS                             | - Time                     |
+|                                   | - Pygame                   |
 
 ## The code
 *(Disclaimer: I had never used Python before, so I had to rely on YouTube tutorials and ChatGPT.)*

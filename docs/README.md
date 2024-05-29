@@ -27,13 +27,6 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 * Time
 * Pygame </br> </br>
 
-| We used the following languages:  | Libraries and Modules:     |
-|-----------------------------------|----------------------------|
-| - Python                          | - OpenCV                   |
-| - JavaScript                      | - MediaPipe                |
-| - HTML                            | - NumPy                    |
-| - CSS                             | - Time                     |
-|                                   | - Pygame                   | 
 </br> </br>
 
 ## The code
@@ -41,16 +34,16 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 
 I started my project with the following tutorial: [Body Segmentation Tutorial](https://www.youtube.com/watch?v=IZEkwUJ6QGQ&list=LL&index=1&t=122s). This tutorial is about body segmentation. After following the tutorial, you will have a code that segments your body silhouette. The video does not show you how to download Python or the necessary libraries, so I will.
 
-**Step 1:** Download Python from [this site](https://www.python.org/downloads/). I recommend version 3.8, 64-bit. </br> </br>
+### Step 1:
+Download Python from [this site](https://www.python.org/downloads/). I recommend version 3.8, 64-bit. </br> </br>
 
-**Step 2:** Create a virtual environment. It is good practice to use a virtual environment for Python projects. By doing so, you create an isolated environment and ensure your project remains unaffected by changes made to other projects. To create a virtual environment, open the terminal and type:</br>
+### Step 2:
+Create a virtual environment. It is good practice to use a virtual environment for Python projects. By doing so, you create an isolated environment and ensure your project remains unaffected by changes made to other projects. To create a virtual environment, open the terminal and type:</br>
 
 ````sh
 python -m venv myenv
 ```` 
 ###### (btw, myenv is the name for the environment; you can choose any name you like.)  </br> 
-##### (btw, myenv is the name for the environment; you can choose any name you like.)  </br>
-This is `red text`, and this is `blue text`.
 
 
 You will get a notification; you can click "yes." </br> </br>

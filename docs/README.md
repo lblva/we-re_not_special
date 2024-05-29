@@ -151,31 +151,30 @@ Okay, I made it sound very bad, but it actually wasn’t! It just didn't turn ou
 * projector
 * frame.
 
-I will give Raspberry Pi another chance, tho i'm sure ill need a better one, maybe use raspberry pi 5 instead of 4? I will also somehow hang the projector. I will also ensure that the location has a fully white or plain-colored background. Additionally, I will put a wooden frame around the projection like a real piece of art. I will order the size i need or cut the wood myself instead of laser cutting it. The person should also be able to stand anywhere within the zone that the camera takes. <sub>yeah.. the solution is not cheap</sub> </br>
+I will give Raspberry Pi another chance, tho i'm sure ill need a better one, maybe use raspberry pi 5 instead of 4? I will also somehow hang the projector. I will also ensure that the location has a fully white or plain-colored background. Additionally, I will put a wooden frame around the projection like a real piece of art. I will order the size i need or cut the wood myself instead of laser cutting it. The person should also be able to stand anywhere within the zone that the camera takes. <sup>yeah.. the solution is not that cheap</sup> </br>
 
-<img src="/public/new_setting.jpg" alt="image of how the set up should be" width="auto" height="300">
+<img src="/public/new_setting.jpg" alt="image of how the set up should be" width="auto" height="240">
 
-**How do you actually set it up**
+### Set up- code wise
+
 
 1. Run the HTML with: <br> 
 ````sh
 npm run dev
 ```` 
 </br>
-2. Then run your Python code (it is normal for it to take a little while).
+2. Then run your Python code (it is normal for it to take a little while). </br>
 3. Make the browser full screen, and ta-da, it's ready.  </br>
 
-How you make the surroundings look good is up to you. I recommend doing it the way I plan to next time.</br> 
 
 ## Be aware
 
-You won’t see any images displayed if you delete even one; there should always be 20 images. Do you want a different number, like 15 or 25? Then you will have to adjust the Python and JavaScript code. Here’s how to do it: </br>
+You won’t see any images displayed if you delete even one; there should always be 20 images. Do you want a different number, like 15 or 25? Then you will have to adjust the Python and JavaScript code. Here’s how you do it: </br>
 
-In your Python code, change:</br>
+Change the 20 to whatever number you want in your Python code:</br>
 
 ![piece of code](/public/pycode_screen.png) </br>
 
-Change the 20 to whatever number you want. </br>
 
 In your JavaScript code, add or remove images in the const imagePositions array: </br>
 
@@ -183,11 +182,11 @@ In your JavaScript code, add or remove images in the const imagePositions array:
 
 ## So, how was my experience overall?
 
-It was an interesting project. There were moments that made me want to pluck all my hair out, and there were moments that made me happy for finally fixing whatever problem I had. To be honest, I didn’t learn a lot, but I did gain some experience with Python. I learned what a virtual environment is, and I used the terminal more than ever before.</br>
+It was quite an interesting project. There were moments when I felt like pulling out all my hair, and there were moments that made me happy for finally fixing whatever problem I had. To be honest, Honestly, I didn’t learn as much as I had hoped, but I did gain some experience with Python, learned what a virtual environment is, and found myself using the terminal more than ever before.</br>
 
-We originally wanted the silhouettes to have random prints, but we weren’t able to achieve that, so we used colors instead. That’s the only con; I’m happy with everything else code-wise.</br>
+We wanted the silhouettes to have random prints originally, but we couldn't make it work. So, we went with colors instead. That's the only downside; otherwise, I'm happy with how everything else turned out in the code.</br>
 
-The installation itself didn’t go exactly as we wanted, but it’s alright. We still managed to impress a special guest, who liked it and wants to use our installation at an event.</br>
+The installation itself didn’t go exactly as we wanted, but it’s alright. We still managed to impress a special guest.</br>
 
 ## Thank you </br>
-Thank you for reading this far. I hope you enjoyed it, and you are more than welcome to use this project.
+Thanks for sticking with me this far! I hope you found it enjoyable. Feel free to use this project if it's helpful to you.

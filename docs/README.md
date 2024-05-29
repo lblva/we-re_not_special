@@ -112,16 +112,15 @@ And last but not least, I created a JavaScript file to import and position the i
 Setting up my installation didn't go as smoothly as I thought it would. So, I'm going to tell you how I did it and how you should do it to achieve the best result.
 
 
-<img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="200">
+<p float="left">
+  <img src="/public/og_setting.jpg" width="200" />
+  <img src="/public/installation-img-1.jpg" width="200" /> 
+</p>
 
-<img src="/public/installation-img-1.jpg" alt="image of my set up" width="auto" height="200">
-<img src="/public/installation-img-2.jpg" alt="image of my set up" width="auto" height="200">
-<img src="/public/installation-img-3.jpg" alt="image of my set up" width="auto" height="200">
 
 <p float="left">
-  <img src="/public/installation-img-1.jpg" width="100" />
-  <img src="/public/installation-img-1.jpg" width="100" /> 
-  <img src="/public/installation-img-1.jpg" width="100" />
+  <img src="/public/installation-img-2.jpg" width="200" />
+  <img src="/public/installation-img-3.jpg" width="200" /> 
 </p>
 
 **What I used:**

@@ -74,9 +74,10 @@ You should be able to run the code, and this should be the result: </br>
 
 So now we have our base, but this is only the beginning. Let’s move on to the next steps!
 
-We need a random color generator; in this case, I want pastel-ish colors. Each silhouette should get its own unique color. We also want to add a sound every time the camera detects a person, and we want to take pictures and save them in the public folder. I would love to explain how to do this step by step, but as I already stated, I’m a beginner myself, so I’m not able to do so. You can find the full code in the "BodyDet.py" file.
+We need a random color generator; in this case, I want pastel-ish colors. Each silhouette should get its own unique color. We also want to add a sound every time the camera detects a person, and we want to take pictures and save them in the public folder. I would love to explain how to do this step by step, but as I already stated, I’m a beginner myself, so I’m not able to do so. You can find the full code in the "BodyDet.py" file.</br></br>
 
-You do have to install one last library for the sound. Let’s install PyGame. Go to the terminal and type:</br>
+**Step 5:** Now we have to install the last library, PyGame. Go to the terminal and type:</br>
+
 ````sh
 pip3 install pygame
 ```` 
@@ -86,7 +87,7 @@ Everything should work now. Incase you DO face some problems, *Google, YouTube, 
 
 But wait! That’s not all- We have to display the taken images of our silhouettes!
 
-I created a HTML file with a canvas and some text, the images are being displayed inside the canvas. I use [Vite](https://www.educative.io/answers/what-is-vitejs), so you don’t have to use a live server. To set it up, go to the terminal and type: </br>
+I created a HTML file with a canvas and some text, the images are being displayed inside the canvas. I use [Vite](https://www.educative.io/answers/what-is-vitejs), so you don’t have to use live server. To set it up, go to the terminal and type: </br>
 
 ````sh
 npm install
@@ -108,9 +109,14 @@ And last but not least, I created a JavaScript file to import and position the i
 
 ## Set up installation
 
-I'm going to share how I set up my installation on the day I had to present it. I thought I was doing it correctly, but I realized too late that I wasn't. However, I learned from the mistake and now know how to do it better in the future. So, how did I do it?
+Setting up my installation didn't go as smoothly as I thought it would. So, I'm going to tell you how I did it and how you should do it to achieve the best result.
 
-<img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="300">
+
+<img src="/public/og_setting.jpg" alt="image of my set up" width="auto" height="200">
+
+<img src="/public/installation-img-1.jpg" alt="image of my set up" width="auto" height="200">
+<img src="/public/installation-img-2.jpg" alt="image of my set up" width="auto" height="200">
+<img src="/public/installation-img-3.jpg" alt="image of my set up" width="auto" height="200">
 
 **What I used:**
 

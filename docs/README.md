@@ -1,12 +1,12 @@
 #  We're NOT special </br>
 **Table of content**
 
-1. Concept
-2. Used software
-3. The code
-4. Set up installation
-5. Be aware
-6. Overall experience
+1. [Concept](#concept)
+2. [Used software](#used-software)
+3. [The code](#the-code)
+4. [Set up installation](#set-up-installation)
+5. [Be aware](#be-aware)
+6. [Overall experience](#overall-experience)
 </br></br>
 
 
@@ -163,14 +163,14 @@ I will give Raspberry Pi another chance, tho i'm sure ill need a better one, may
 ### Set up installation- code wise
 
 
-**step 1** Run the HTML with: <br> 
+**step 1:** Run the HTML with: <br> 
 ````sh
 npm run dev
 ```` 
 </br>
 
-**step 2** Then run your Python code (it is normal for it to take a little while). </br>
-**step 3** Make the browser full screen, and ta-da, it's ready.  </br>
+**step 2:** Then run your Python code (it is normal for it to take a little while). </br>
+**step 3:** Make the browser full screen, and ta-da, it's ready.  </br>
 
 
 ## Be aware
@@ -186,7 +186,7 @@ In your JavaScript code, add or remove images in the const imagePositions array:
 
 ![piece of code](/public/jscode_screen.png) </br>
 
-## So, how was my experience overall?
+## Overall experience?
 
 It was quite an interesting project. There were moments when I felt like pulling out all my hair, and there were moments that made me happy for finally fixing whatever problem I had. Honestly, I didn’t learn as much as I had hoped, but I did gain some experience with Python, learned what a virtual environment is, and found myself using terminal more than ever before.</br>
 

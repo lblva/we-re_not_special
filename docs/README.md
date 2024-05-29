@@ -49,12 +49,8 @@ I started my project with the following tutorial: [Body Segmentation Tutorial](h
 python -m venv myenv
 ```` 
 ###### (btw, myenv is the name for the environment; you can choose any name you like.)  </br> 
-<span style="color: blue;">This text is blue.</span>
-<span style="color: #ff0000;">This text is red using hex code.</span>
-<span style="color: rgb(255, 0, 0);">This text is red using RGB values.</span>
-<mark>Dit is gemarkeerde tekst.</mark>
-
-
+##### (btw, myenv is the name for the environment; you can choose any name you like.)  </br>
+This is `red text`, and this is `blue text`.
 
 
 You will get a notification; you can click "yes." </br> </br>

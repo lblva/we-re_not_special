@@ -28,7 +28,6 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
 * Pygame </br> </br>
 
 
-<div style="display: flex; justify-content: space-between;">
     <table>
         <tr>
             <th>Used Languages:</th>
@@ -67,7 +66,7 @@ With the 'We're NOT Special' installation, you leave your unique silhouette on t
             <td>- Pygame</td>
         </tr>
     </table>
-</div> </br>
+<</br>
 
 ## The code
 *(Disclaimer: I had never used Python before, so I had to rely on YouTube tutorials and ChatGPT.)*

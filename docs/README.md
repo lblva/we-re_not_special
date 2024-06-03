@@ -1,4 +1,8 @@
 #  We're NOT special </br>
+
+[![video about the installation](/public/installation-img-3.jpg)](https://youtu.be/iLWXPO3ZSoE)
+
+
 **Table of content**
 
 1. [Concept](#concept)

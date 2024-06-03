@@ -150,7 +150,7 @@ The next problem was the projector. It wouldn't have been a problem if I could h
 #### frame
 The last problem was that we wanted to create a wooden frame and place it around the projection, mimicking a real painting in a museum. However, it was impossible because the frame was too large for the wood cutter. T.T</br>
 
-Okay, I made it sound very bad, but it actually wasn’t! It just didn't turn out the way we wanted. Surprisingly, an orthopedagogical professional actually liked the installation and asked me to collaborate and use it at an event next year! xD > </br>
+Okay, I made it sound very bad, but it actually wasn’t! It just didn't turn out the way we wanted. Surprisingly, an orthopedagogical professional actually liked the installation and asked us to collaborate and use it at an event next year! xD  </br>
 
 ### So, what will I do differently next time? </br>
 
